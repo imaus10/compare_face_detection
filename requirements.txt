@@ -1,0 +1,6 @@
+cython
+matplotlib
+numpy
+opencv-contrib-python
+pycocotools
+tqdm
