@@ -8,7 +8,12 @@ This script shows how these detectors perform on the FDDB dataset. It displays t
 
 ## Results
 
-The DNN is more accurate, and just a little slower. Run it yourself and see!
+The DNN is more accurate, and just a little slower. Run it yourself and see! Here are the results on my machine:
+
+![FDDB image size histogram](/results/01_FDDB_image_size_histogram.png?raw=true)
+![Mean detect time](/results/02_mean_detect_time.png?raw=true)
+![Average precision scores](/results/03_average_precision_scores.png?raw=true)
+![PR curves](/results/04_PR_curves.png?raw=true)
 
 ## Usage
 
@@ -18,3 +23,8 @@ The DNN is more accurate, and just a little slower. Run it yourself and see!
 # Activate the virtualenv and run compare_face_detection.py.
 ./run.sh
 ```
+
+## References
+
+- [Viola-Jones cascade classifier](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf)
+- [SSD object detection (DNN)](https://arxiv.org/abs/1512.02325)
